@@ -55,7 +55,7 @@ class TodoListViewController: UITableViewController {
                 self.itemsArray.append(tf)
             }
             
-            self.tableView.reloadData()
+            self.tableView.reloadData()//reload
             
         }
         
